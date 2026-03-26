@@ -2,6 +2,10 @@
 
 <img width="1458" height="787" alt="Screenshot 2026-03-27 000853" src="https://github.com/user-attachments/assets/904ca6b7-4bef-4c0d-8bf2-edda57b16ebe" />
 
+<img width="1452" height="782" alt="Screenshot 2026-03-27 001000" src="https://github.com/user-attachments/assets/d11de8f0-f8ee-406b-86c6-964eccb388a0" />
+
+<img width="1470" height="831" alt="Screenshot 2026-03-27 001108" src="https://github.com/user-attachments/assets/89053825-817e-4a3f-8245-39cff6a819b1" />
+
 A terminal-based YouTube browser and player built with Rust. Search for videos, browse results with metadata, and play them directly with mpv.
 
 ## Prerequisites
