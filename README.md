@@ -36,6 +36,7 @@ The app opens in search mode. Type a query and press Enter to search YouTube.
 | n            | Next page of results     |
 | p            | Previous page of results |
 | q / Esc      | Quit                     |
+| :?           | for filters              |
 
 ## How It Works
 
@@ -50,7 +51,3 @@ The app opens in search mode. Type a query and press Enter to search YouTube.
 - [crossterm](https://github.com/crossterm-rs/crossterm) - Cross-platform terminal manipulation
 - [serde](https://serde.rs/) / [serde_json](https://github.com/serde-rs/json) - JSON parsing
 - [anyhow](https://github.com/dtolnay/anyhow) - Error handling
-
-## License
-
-MIT
