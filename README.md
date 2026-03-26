@@ -1,0 +1,56 @@
+# mpv-yt
+
+A terminal-based YouTube browser and player built with Rust. Search for videos, browse results with metadata, and play them directly with mpv.
+
+## Prerequisites
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) installed and on PATH
+- [mpv](https://mpv.io/) installed and on PATH
+
+## Installation
+
+```sh
+git clone https://github.com/yourusername/mpv-yt.git
+cd mpv-yt
+cargo build --release
+```
+
+The binary will be at `target/release/mpv-yt.exe`.
+
+## Usage
+
+```sh
+cargo run
+```
+
+The app opens in search mode. Type a query and press Enter to search YouTube.
+
+## Keybindings
+
+| Key          | Action                   |
+|--------------|--------------------------|
+| /            | Start new search         |
+| j / Down     | Move selection down      |
+| k / Up       | Move selection up        |
+| Enter        | Play selected video      |
+| n            | Next page of results     |
+| p            | Previous page of results |
+| q / Esc      | Quit                     |
+
+## How It Works
+
+- Uses `yt-dlp` to search YouTube and fetch video metadata (title, channel, duration, views, upload date)
+- Displays results in an interactive TUI built with `ratatui` and `crossterm`
+- Plays selected videos by launching `mpv` with the video URL
+- Supports pagination with 10 results per page
+
+## Dependencies
+
+- [ratatui](https://github.com/ratatui/ratatui) - Terminal UI framework
+- [crossterm](https://github.com/crossterm-rs/crossterm) - Cross-platform terminal manipulation
+- [serde](https://serde.rs/) / [serde_json](https://github.com/serde-rs/json) - JSON parsing
+- [anyhow](https://github.com/dtolnay/anyhow) - Error handling
+
+## License
+
+MIT
