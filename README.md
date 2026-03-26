@@ -1,5 +1,7 @@
 # mpv-yt
 
+<img width="1458" height="787" alt="Screenshot 2026-03-27 000853" src="https://github.com/user-attachments/assets/904ca6b7-4bef-4c0d-8bf2-edda57b16ebe" />
+
 A terminal-based YouTube browser and player built with Rust. Search for videos, browse results with metadata, and play them directly with mpv.
 
 ## Prerequisites
